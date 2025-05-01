@@ -472,3 +472,94 @@ body {
 .alpina_link:hover{
     background: rgb(108, 157, 33);
 }
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav ul li {
+        margin: 10px 0;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .hero .btn {
+        padding: 10px 20px;
+    }
+
+    .property-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .property {
+        width: 90%;
+        height: auto;
+    }
+
+    .contenedor_fondo,
+    .property img {
+        width: 100%;
+        height: auto;
+    }
+
+    .l_terrenos, .l_terrenos1, .l_terrenos2,
+    .estado, .property h3, .property p {
+        position: static;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .r2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .alpina {
+        width: 90%;
+        margin: 20px;
+    }
+
+    .info_alpina {
+        margin: 20px;
+    }
+
+    .carousel {
+        width: 100%;
+        height: auto;
+        overflow-x: scroll;
+    }
+
+    .carousel-images img {
+        width: 100%;
+        height: auto;
+    }
+
+    .cierre {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .modal-content {
+        width: 90%;
+        height: auto;
+    }
+
+    .item1 {
+        width: 100%;
+        height: auto;
+    }
+}
